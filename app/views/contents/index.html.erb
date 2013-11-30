@@ -9,12 +9,14 @@
 </head>
 <body class="coverflow">
 <div id="main">
+  <% @contents.each do |obj| %>
   <article>
-    <section style = "text-align:center; padding-top: 15px;"><%= link_to image_tag(@contents.first.image_url, :size => "350x350" ) , @contents.first.url %></section>
+    <section style = "text-align:center; padding-top: 15px;"><%= link_to image_tag(obj.image_url, :size => "350x350" ) , obj.url %></section>
   </article>
+  <% end %>
 </div>
 
-<div id="forkme"><a href="">for you.</a></div>
+<div id="forkme"><a href="">for you...</a></div>
 
 <footer>
   <div class="credits">
