@@ -29,7 +29,9 @@ gem 'jbuilder', '~> 1.2'
 
 gem 'imagesize', '>= 0.1.0'
 
-gem 'nokogiri', '1.6.0'
+gem 'nokogiri'
+
+gem 'mechanize'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
