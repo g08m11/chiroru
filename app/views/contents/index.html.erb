@@ -18,7 +18,7 @@
   </header>
 
   <article>
-  <section><%= image_tag @contents.first.image_url %></section>
+  <section><%= link_to image_tag(@contents.first.image_url, :size => "350x350") , @contents.first.url %></section>
   </article>
 </div>
 
