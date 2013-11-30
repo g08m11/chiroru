@@ -316,6 +316,7 @@ section.bespoke-inactive {
 		-ms-transition: -ms-transform .7s ease, opacity .7s ease;
 		-o-transition: -o-transform .7s ease, opacity .7s ease;
 		transition: transform .7s ease, opacity .7s ease;
+
 	}
 }
 

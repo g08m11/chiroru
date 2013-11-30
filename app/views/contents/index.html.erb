@@ -9,16 +9,8 @@
 </head>
 <body class="coverflow">
 <div id="main">
-  <header>
-    <a href="https://github.com/markdalgleish/bespoke.js">
-      <h1>Bespoke.js</h1>
-      <h2>DIY Presentation Micro-Framework</h2>
-    </a>
-    <p class="hidden"><span id="input-method">Press up and down keys</span> to view example themes.</p>
-  </header>
-
   <article>
-  <section><%= link_to image_tag(@contents.first.image_url, :size => "350x350") , @contents.first.url %></section>
+  <section style = "text-align:center; padding-top: 15px;><%= link_to image_tag(@contents.first.image_url, :size => "350x350" ) , @contents.first.url %></section>
   </article>
 </div>
 
