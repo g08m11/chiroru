@@ -9,11 +9,11 @@
 </head>
 <body class="coverflow">
 <div id="main">
-  <% @contents.each do |obj| %>
   <article>
-    <section style = "text-align:center; padding-top: 15px;"><%= link_to image_tag(obj.image_url, :size => "350x350" ) , obj.url %></section>
-  </article>
-  <% end %>
+    <% @contents.each do |obj| %>
+      <section style = "text-align:center; padding-top: 15px;"><%= link_to image_tag(obj.image_url, :size => "350x350" ) , obj.url %></section>
+    <% end %>
+</article>
 </div>
 
 <div id="forkme"><a href="">for you...</a></div>

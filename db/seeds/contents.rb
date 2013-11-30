@@ -1,7 +1,7 @@
 
 datas = [
   {
-    id:  2,
+    id:  1,
     image_url: 'http://dju9dx81hnvkz.cloudfront.net/12635/main.php/normal?1385440234',
     url: 'http://mery.jp/6897' ,
     title: '1人1枚は当然！ニット素材のタイトスカートを要チェック♡',
@@ -10,7 +10,7 @@ datas = [
 
   },
 {
-  id:  3,
+  id:  2,
   image_url: 'http://d20u4i5j3l9sia.cloudfront.net/67177/201308221144251da.jpg/normal?1385543259',
   url: 'http://mery.jp/6990' ,
   title: 'つい頼りたくなる！飲むだけ楽ちんなダイエットサプリが気になる・・・！',
@@ -20,8 +20,8 @@ datas = [
 }
 
 ]
-datas.each do |data| {
-  Content.create(data)
+datas.each do |obj| {
+  Content.create(obj)
 
 }
 end
