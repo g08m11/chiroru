@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="14640ea8-d932-4b80-b460-c9aed90f0635" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/contents/index.html.erb" afterPath="$PROJECT_DIR$/app/views/contents/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/style.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/style.css" />
     </list>
     <ignored path="chiroru.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -13,10 +12,10 @@
     <file path="/routes.rb" changelist="14640ea8-d932-4b80-b460-c9aed90f0635" time="1385781285436" ignored="false" />
     <file path="/20131130043025_create_contents.rb" changelist="14640ea8-d932-4b80-b460-c9aed90f0635" time="1385786510399" ignored="false" />
     <file path="/contents.rb" changelist="14640ea8-d932-4b80-b460-c9aed90f0635" time="1385789057514" ignored="false" />
-    <file path="/index.html.erb" changelist="14640ea8-d932-4b80-b460-c9aed90f0635" time="1385797037842" ignored="false" />
+    <file path="/index.html.erb" changelist="14640ea8-d932-4b80-b460-c9aed90f0635" time="1385798363998" ignored="false" />
     <file path="/contents_controller.rb" changelist="14640ea8-d932-4b80-b460-c9aed90f0635" time="1385791103848" ignored="false" />
     <file path="/contents_helper.rb" changelist="14640ea8-d932-4b80-b460-c9aed90f0635" time="1385793582409" ignored="false" />
-    <file path="/*.regexp" changelist="14640ea8-d932-4b80-b460-c9aed90f0635" time="1385796376751" ignored="false" />
+    <file path="/*.regexp" changelist="14640ea8-d932-4b80-b460-c9aed90f0635" time="1385797231191" ignored="false" />
     <file path="/style.css" changelist="14640ea8-d932-4b80-b460-c9aed90f0635" time="1385796474160" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,8 +39,11 @@
       <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/contents/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="61" selection-start="574" selection-end="574" vertical-scroll-proportion="0.3761302">
-              <folding />
+            <state line="16" column="77" selection-start="634" selection-end="634" vertical-scroll-proportion="0.45027125">
+              <folding>
+                <element signature="n#style#0;n#section#0;n#article#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#p#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -876,8 +878,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/contents/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="61" selection-start="574" selection-end="574" vertical-scroll-proportion="0.3761302">
-          <folding />
+        <state line="16" column="77" selection-start="634" selection-end="634" vertical-scroll-proportion="0.45027125">
+          <folding>
+            <element signature="n#style#0;n#section#0;n#article#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#p#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
