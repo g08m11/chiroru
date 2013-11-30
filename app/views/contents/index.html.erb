@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width" />
+  <title>Bespoke.js</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="stylesheet" type="text/css" href="themes.css" />
+  <link href="http://fonts.googleapis.com/css?family=Raleway+Dots" rel="stylesheet" type="text/css">
+</head>
+<body class="coverflow">
+<div id="main">
+  <header>
+    <a href="https://github.com/markdalgleish/bespoke.js">
+      <h1>Bespoke.js</h1>
+      <h2>DIY Presentation Micro-Framework</h2>
+    </a>
+    <p class="hidden"><span id="input-method">Press up and down keys</span> to view example themes.</p>
+  </header>
+
+  <article>
+  <section><%= image_tag @contents.first.image_url %></section>
+  </article>
+</div>
+
+<div id="forkme"><a href="https://github.com/markdalgleish/bespoke.js">Fork me on GitHub</a></div>
+
+<footer>
+  <div class="credits">
+    <a href="http://twitter.com/markdalgleish"><img src="profile.jpg" alt="Mark Dalgleish"></a>
+    <p>Lovingly crafted by <a href="http://twitter.com/markdalgleish">@markdalgleish</a></p>
+  </div>
+
+  <div class="themes">
+    <p>
+      <strong>Example Theme<span class="colon">:</span></strong> <span id="theme"></span>
+    </p>
+    <div id="up-arrow" class="up arrow">^</div>
+    <div id="down-arrow" class="down arrow">^</div>
+  </div>
+</footer>
+
+<script src="../assets/bespoke.js"></script>
+<script src="../assets/demo.js"></script>
+</body>
+</html>
