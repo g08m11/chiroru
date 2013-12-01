@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="14640ea8-d932-4b80-b460-c9aed90f0635" name="Default" comment="" />
+    <list default="true" id="14640ea8-d932-4b80-b460-c9aed90f0635" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20131130043025_create_contents.rb" afterPath="$PROJECT_DIR$/db/migrate/20131130043025_create_contents.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/tasks/insert_contents_task.rb" afterPath="$PROJECT_DIR$/lib/tasks/insert_contents_task.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="chiroru.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="14640ea8-d932-4b80-b460-c9aed90f0635" time="1385819053319" ignored="false" />
     <file path="/Gemfile" changelist="14640ea8-d932-4b80-b460-c9aed90f0635" time="1385822013918" ignored="false" />
     <file path="/database.yml" changelist="14640ea8-d932-4b80-b460-c9aed90f0635" time="1385821796797" ignored="false" />
     <file path="/routes.rb" changelist="14640ea8-d932-4b80-b460-c9aed90f0635" time="1385781285436" ignored="false" />
-    <file path="/20131130043025_create_contents.rb" changelist="14640ea8-d932-4b80-b460-c9aed90f0635" time="1385786510399" ignored="false" />
+    <file path="/20131130043025_create_contents.rb" changelist="14640ea8-d932-4b80-b460-c9aed90f0635" time="1385910796812" ignored="false" />
     <file path="/contents.rb" changelist="14640ea8-d932-4b80-b460-c9aed90f0635" time="1385799143531" ignored="false" />
     <file path="/index.html.erb" changelist="14640ea8-d932-4b80-b460-c9aed90f0635" time="1385908269745" ignored="false" />
     <file path="/contents_controller.rb" changelist="14640ea8-d932-4b80-b460-c9aed90f0635" time="1385791103848" ignored="false" />
@@ -16,7 +20,7 @@
     <file path="/*.regexp" changelist="14640ea8-d932-4b80-b460-c9aed90f0635" time="1385800857433" ignored="false" />
     <file path="/style.css" changelist="14640ea8-d932-4b80-b460-c9aed90f0635" time="1385796474160" ignored="false" />
     <file path="/insert_contents.rake" changelist="14640ea8-d932-4b80-b460-c9aed90f0635" time="1385800746709" ignored="false" />
-    <file path="/insert_contents_task.rb" changelist="14640ea8-d932-4b80-b460-c9aed90f0635" time="1385907414461" ignored="false" />
+    <file path="/insert_contents_task.rb" changelist="14640ea8-d932-4b80-b460-c9aed90f0635" time="1385912825934" ignored="false" />
     <file path="$USER_HOME$/.rvm/gems/ruby-1.9.3-p125/gems/nokogiri-1.6.0/lib/nokogiri/css.rb" changelist="14640ea8-d932-4b80-b460-c9aed90f0635" time="1385827537002" ignored="false" />
     <file path="$USER_HOME$/.rvm/gems/ruby-1.9.3-p125/gems/nokogiri-1.6.0/lib/nokogiri/html.rb" changelist="14640ea8-d932-4b80-b460-c9aed90f0635" time="1385827537002" ignored="false" />
     <file path="$USER_HOME$/.rvm/gems/ruby-1.9.3-p125/gems/nokogiri-1.6.0/lib/nokogiri/html/builder.rb" changelist="14640ea8-d932-4b80-b460-c9aed90f0635" time="1385827537002" ignored="false" />
@@ -49,10 +53,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/contents/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="32" selection-start="823" selection-end="823" vertical-scroll-proportion="0.56772333">
+            <state line="28" column="32" selection-start="823" selection-end="823" vertical-scroll-proportion="-17.5">
               <folding>
                 <element signature="n#style#0;n#section#0;n#article#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#p#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -61,10 +65,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="insert_contents_task.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="insert_contents_task.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/tasks/insert_contents_task.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="95" selection-start="922" selection-end="922" vertical-scroll-proportion="-18.461538">
+            <state line="21" column="16" selection-start="698" selection-end="698" vertical-scroll-proportion="0.65217394">
               <folding />
             </state>
           </provider>
@@ -147,7 +151,7 @@
       <file leaf-file-name="20131130043025_create_contents.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db/migrate/20131130043025_create_contents.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="23" selection-start="198" selection-end="198" vertical-scroll-proportion="0.0">
+            <state line="3" column="0" selection-start="94" selection-end="94" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -186,7 +190,6 @@
       <list>
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/db/seeds.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20131130043025_create_contents.rb" />
         <option value="$PROJECT_DIR$/app/helpers/contents_helper.rb" />
         <option value="$PROJECT_DIR$/app/controllers/contents_controller.rb" />
         <option value="$PROJECT_DIR$/app/helpers/application_helper.rb" />
@@ -198,8 +201,9 @@
         <option value="$PROJECT_DIR$/config/database.yml" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/views/contents/test.html" />
-        <option value="$PROJECT_DIR$/lib/tasks/insert_contents_task.rb" />
         <option value="$PROJECT_DIR$/app/views/contents/index.html.erb" />
+        <option value="$PROJECT_DIR$/db/migrate/20131130043025_create_contents.rb" />
+        <option value="$PROJECT_DIR$/lib/tasks/insert_contents_task.rb" />
       </list>
     </option>
   </component>
@@ -806,20 +810,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20131130043025_create_contents.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="23" selection-start="198" selection-end="198" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/seeds/contents.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="101" selection-start="189" selection-end="189" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="1" selection-start="837" selection-end="850" vertical-scroll-proportion="0.0">
@@ -870,20 +860,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/tasks/insert_contents_task.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="95" selection-start="922" selection-end="922" vertical-scroll-proportion="-18.461538">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/contents/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="32" selection-start="823" selection-end="823" vertical-scroll-proportion="0.56772333">
+        <state line="28" column="32" selection-start="823" selection-end="823" vertical-scroll-proportion="-17.5">
           <folding>
             <element signature="n#style#0;n#section#0;n#article#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#p#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/seeds/contents.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="101" selection-start="189" selection-end="189" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20131130043025_create_contents.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="94" selection-end="94" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/tasks/insert_contents_task.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="16" selection-start="698" selection-end="698" vertical-scroll-proportion="0.65217394">
+          <folding />
         </state>
       </provider>
     </entry>
