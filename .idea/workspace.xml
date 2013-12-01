@@ -19,7 +19,7 @@
     <file path="/*.regexp" changelist="14640ea8-d932-4b80-b460-c9aed90f0635" time="1385800857433" ignored="false" />
     <file path="/style.css" changelist="14640ea8-d932-4b80-b460-c9aed90f0635" time="1385796474160" ignored="false" />
     <file path="/insert_contents.rake" changelist="14640ea8-d932-4b80-b460-c9aed90f0635" time="1385800746709" ignored="false" />
-    <file path="/insert_contents_task.rb" changelist="14640ea8-d932-4b80-b460-c9aed90f0635" time="1385894555713" ignored="false" />
+    <file path="/insert_contents_task.rb" changelist="14640ea8-d932-4b80-b460-c9aed90f0635" time="1385907414461" ignored="false" />
     <file path="$USER_HOME$/.rvm/gems/ruby-1.9.3-p125/gems/nokogiri-1.6.0/lib/nokogiri/css.rb" changelist="14640ea8-d932-4b80-b460-c9aed90f0635" time="1385827537002" ignored="false" />
     <file path="$USER_HOME$/.rvm/gems/ruby-1.9.3-p125/gems/nokogiri-1.6.0/lib/nokogiri/html.rb" changelist="14640ea8-d932-4b80-b460-c9aed90f0635" time="1385827537002" ignored="false" />
     <file path="$USER_HOME$/.rvm/gems/ruby-1.9.3-p125/gems/nokogiri-1.6.0/lib/nokogiri/html/builder.rb" changelist="14640ea8-d932-4b80-b460-c9aed90f0635" time="1385827537002" ignored="false" />
@@ -55,7 +55,7 @@
       <file leaf-file-name="insert_contents_task.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/tasks/insert_contents_task.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="35" selection-start="709" selection-end="709" vertical-scroll-proportion="0.83798885">
+            <state line="24" column="30" selection-start="581" selection-end="581" vertical-scroll-proportion="0.46089387">
               <folding />
             </state>
           </provider>
@@ -827,13 +827,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="30" selection-start="1601" selection-end="1601" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="1" selection-start="837" selection-end="850" vertical-scroll-proportion="0.0">
@@ -877,9 +870,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="30" selection-start="1601" selection-end="1601" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/tasks/insert_contents_task.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="35" selection-start="709" selection-end="709" vertical-scroll-proportion="0.83798885">
+        <state line="24" column="30" selection-start="581" selection-end="581" vertical-scroll-proportion="0.46089387">
           <folding />
         </state>
       </provider>
