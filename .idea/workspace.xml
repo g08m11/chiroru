@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14640ea8-d932-4b80-b460-c9aed90f0635" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/tasks/insert_contents_task.rb" afterPath="$PROJECT_DIR$/lib/tasks/insert_contents_task.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/contents/index.html.erb" afterPath="$PROJECT_DIR$/app/views/contents/index.html.erb" />
     </list>
     <ignored path="chiroru.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -13,7 +12,7 @@
     <file path="/routes.rb" changelist="14640ea8-d932-4b80-b460-c9aed90f0635" time="1385781285436" ignored="false" />
     <file path="/20131130043025_create_contents.rb" changelist="14640ea8-d932-4b80-b460-c9aed90f0635" time="1385786510399" ignored="false" />
     <file path="/contents.rb" changelist="14640ea8-d932-4b80-b460-c9aed90f0635" time="1385799143531" ignored="false" />
-    <file path="/index.html.erb" changelist="14640ea8-d932-4b80-b460-c9aed90f0635" time="1385799035137" ignored="false" />
+    <file path="/index.html.erb" changelist="14640ea8-d932-4b80-b460-c9aed90f0635" time="1385908269745" ignored="false" />
     <file path="/contents_controller.rb" changelist="14640ea8-d932-4b80-b460-c9aed90f0635" time="1385791103848" ignored="false" />
     <file path="/contents_helper.rb" changelist="14640ea8-d932-4b80-b460-c9aed90f0635" time="1385793582409" ignored="false" />
     <file path="/*.regexp" changelist="14640ea8-d932-4b80-b460-c9aed90f0635" time="1385800857433" ignored="false" />
@@ -52,10 +51,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="insert_contents_task.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/contents/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="82" selection-start="868" selection-end="910" vertical-scroll-proportion="0.6541787">
+              <folding>
+                <element signature="n#style#0;n#section#0;n#article#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#p#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="insert_contents_task.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/tasks/insert_contents_task.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="30" selection-start="581" selection-end="581" vertical-scroll-proportion="0.46089387">
+            <state line="32" column="95" selection-start="922" selection-end="922" vertical-scroll-proportion="-18.461538">
               <folding />
             </state>
           </provider>
@@ -95,15 +106,6 @@
                 <element signature="n#style#0;n#div#0;n#div#3;n#div#2;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#4;n#div#2;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/application.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="58" selection-start="1084" selection-end="1084" vertical-scroll-proportion="0.0">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -192,7 +194,6 @@
         <option value="$PROJECT_DIR$/app/helpers/application_helper.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/style.css" />
         <option value="$PROJECT_DIR$/db/seeds/contents.rb" />
-        <option value="$PROJECT_DIR$/app/views/contents/index.html.erb" />
         <option value="$PROJECT_DIR$/config/application.rb" />
         <option value="$PROJECT_DIR$/lib/tasks/insert_contents.rake" />
         <option value="$PROJECT_DIR$/lib/insert_contents_task.rb" />
@@ -200,6 +201,7 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/views/contents/test.html" />
         <option value="$PROJECT_DIR$/lib/tasks/insert_contents_task.rb" />
+        <option value="$PROJECT_DIR$/app/views/contents/index.html.erb" />
       </list>
     </option>
   </component>
@@ -778,13 +780,6 @@
         <state line="17" column="66" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/contents/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="156" selection-start="771" selection-end="771" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/application.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="58" selection-start="1084" selection-end="1084" vertical-scroll-proportion="0.0">
@@ -879,8 +874,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/tasks/insert_contents_task.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="30" selection-start="581" selection-end="581" vertical-scroll-proportion="0.46089387">
+        <state line="32" column="95" selection-start="922" selection-end="922" vertical-scroll-proportion="-18.461538">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/contents/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="82" selection-start="868" selection-end="910" vertical-scroll-proportion="0.6541787">
+          <folding>
+            <element signature="n#style#0;n#section#0;n#article#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#p#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
