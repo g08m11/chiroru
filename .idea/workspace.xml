@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="14640ea8-d932-4b80-b460-c9aed90f0635" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/contents/index.html.erb" afterPath="$PROJECT_DIR$/app/views/contents/index.html.erb" />
-    </list>
+    <list default="true" id="14640ea8-d932-4b80-b460-c9aed90f0635" name="Default" comment="" />
     <ignored path="chiroru.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="14640ea8-d932-4b80-b460-c9aed90f0635" time="1385819053319" ignored="false" />
@@ -54,7 +52,7 @@
       <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/contents/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="82" selection-start="868" selection-end="910" vertical-scroll-proportion="0.6541787">
+            <state line="28" column="32" selection-start="823" selection-end="823" vertical-scroll-proportion="0.56772333">
               <folding>
                 <element signature="n#style#0;n#section#0;n#article#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#p#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -881,7 +879,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/contents/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="82" selection-start="868" selection-end="910" vertical-scroll-proportion="0.6541787">
+        <state line="28" column="32" selection-start="823" selection-end="823" vertical-scroll-proportion="0.56772333">
           <folding>
             <element signature="n#style#0;n#section#0;n#article#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#p#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
