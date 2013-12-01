@@ -1,5 +1,7 @@
-require 'nokogiri'
-require 'open-uri'
+require "open-uri"
+require "rubygems"
+require "nokogiri"
+
 
 #検索結果ではURL単一しか取れないから
 #Aowsomeなどを利用して単一の検索結果に対して
@@ -8,16 +10,24 @@ require 'open-uri'
 class Tasks::InsertContentsTask
   # To change this template use File | Settings | File Templates.
   def self.execute
-    date = DateTime.now
-    puts "scraping...  >> " + date.to_s
-    hotEntryUrl = "http://mery.jp/hairstyle"
-    hotEntryHtml = Nokogiri::HTML(open(hotEntryUrl), nil, 'UTF-8')
+    url = ARGV[0]
+    charset = nil
+    html = open(url) do |f|
+      charset = f.charset
+      f.read
+    end
+    doc = Nokogiri::HTML.parse(html, nil, charset)
+    p doc.title
+    doc.xpath('//div[@class="article_list"]').each do |node|
 
-    hotEntryHtml.search('//li[@class="article_list_content clearfix"]').each do |doc|
+      #image_url
+      #thumbs
+      thumbs = node.xpath('//div[@class="article_list_thumb"]/a')
+      thumbs.each do |thumb|
+        p thumb.xpath('img').attribute('src').value
+        p thumb.xpath('@href').text
+      end
 
-      content = Content.new
-      content.title 	= doc.search('h3/a/@title').text
-      content.save
     end
   end
 end

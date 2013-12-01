@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14640ea8-d932-4b80-b460-c9aed90f0635" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/contents/test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/chiroru.iml" afterPath="$PROJECT_DIR$/.idea/chiroru.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.yml" afterPath="$PROJECT_DIR$/config/database.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/tasks/insert_contents_task.rb" afterPath="$PROJECT_DIR$/lib/tasks/insert_contents_task.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -24,7 +19,7 @@
     <file path="/*.regexp" changelist="14640ea8-d932-4b80-b460-c9aed90f0635" time="1385800857433" ignored="false" />
     <file path="/style.css" changelist="14640ea8-d932-4b80-b460-c9aed90f0635" time="1385796474160" ignored="false" />
     <file path="/insert_contents.rake" changelist="14640ea8-d932-4b80-b460-c9aed90f0635" time="1385800746709" ignored="false" />
-    <file path="/insert_contents_task.rb" changelist="14640ea8-d932-4b80-b460-c9aed90f0635" time="1385828231007" ignored="false" />
+    <file path="/insert_contents_task.rb" changelist="14640ea8-d932-4b80-b460-c9aed90f0635" time="1385894555713" ignored="false" />
     <file path="$USER_HOME$/.rvm/gems/ruby-1.9.3-p125/gems/nokogiri-1.6.0/lib/nokogiri/css.rb" changelist="14640ea8-d932-4b80-b460-c9aed90f0635" time="1385827537002" ignored="false" />
     <file path="$USER_HOME$/.rvm/gems/ruby-1.9.3-p125/gems/nokogiri-1.6.0/lib/nokogiri/html.rb" changelist="14640ea8-d932-4b80-b460-c9aed90f0635" time="1385827537002" ignored="false" />
     <file path="$USER_HOME$/.rvm/gems/ruby-1.9.3-p125/gems/nokogiri-1.6.0/lib/nokogiri/html/builder.rb" changelist="14640ea8-d932-4b80-b460-c9aed90f0635" time="1385827537002" ignored="false" />
@@ -60,7 +55,7 @@
       <file leaf-file-name="insert_contents_task.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/tasks/insert_contents_task.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="620" selection-end="620" vertical-scroll-proportion="0.74860334">
+            <state line="27" column="35" selection-start="709" selection-end="709" vertical-scroll-proportion="0.83798885">
               <folding />
             </state>
           </provider>
@@ -69,7 +64,7 @@
       <file leaf-file-name="test.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/contents/test.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="170" column="37" selection-start="8584" selection-end="8602" vertical-scroll-proportion="-26.25">
+            <state line="122" column="119" selection-start="6544" selection-end="6544" vertical-scroll-proportion="-9.916667">
               <folding>
                 <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -848,7 +843,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/contents/test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="170" column="37" selection-start="8584" selection-end="8602" vertical-scroll-proportion="-26.25">
+        <state line="122" column="119" selection-start="6544" selection-end="6544" vertical-scroll-proportion="-9.916667">
           <folding>
             <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -884,7 +879,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/tasks/insert_contents_task.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="620" selection-end="620" vertical-scroll-proportion="0.74860334">
+        <state line="27" column="35" selection-start="709" selection-end="709" vertical-scroll-proportion="0.83798885">
           <folding />
         </state>
       </provider>
