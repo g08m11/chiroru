@@ -20,7 +20,10 @@ development:
   database: mydb
   pool: 5
   username: postgres
-  password: tryfeel
+  #個人PCなら
+  password: asdf
+  #別PCなら
+  #password: tryfeel
   #ソケットは/tmpにあるやつをリンク付けたため不要
   #socket: /tmp/.s.PGSQL.5432
 
@@ -51,7 +54,10 @@ test:
   database: mydb
   pool: 5
   username: postgres
-  password: tryfeel
+  #個人PCなら
+  password: asdf
+  #別PCなら
+  #password: tryfeel
   #ソケットは/tmpにあるやつをリンク付けたため不要
   #socket: /tmp/.s.PGSQL.5432
 
@@ -62,6 +68,9 @@ production:
   database: mydb
   pool: 5
   username: postgres
-  password: tryfeel
+  #個人PCなら
+  password: asdf
+  #別PCなら
+  #password: tryfeel
   #ソケットは/tmpにあるやつをリンク付けたため不要
   #socket: /tmp/.s.PGSQL.5432
