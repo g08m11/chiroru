@@ -316,7 +316,6 @@ section.bespoke-inactive {
 		-ms-transition: -ms-transform .7s ease, opacity .7s ease;
 		-o-transition: -o-transform .7s ease, opacity .7s ease;
 		transition: transform .7s ease, opacity .7s ease;
-
 	}
 }
 
@@ -389,19 +388,5 @@ section.bespoke-inactive {
 	footer .themes p {
 		width: 110px;
 	}
-
-
-    .line {
-        position: absolute;
-        top:-20px;
-        right:-30px;
-        width:110px;
-    }
-     .favorite {
-        position: absolute;
-        top:-20px;
-        left:-30px;
-        width:110px;
-    }
 
 }
