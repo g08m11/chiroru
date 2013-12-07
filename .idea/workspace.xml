@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0236333f-44d4-45f8-a2cf-7b31c2c5c63a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/linebutton.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/title_back.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/test.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/demo.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/demo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/favorite.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/line.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/contents/index.html.erb" afterPath="$PROJECT_DIR$/app/views/contents/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/style.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="chiroru.iws" />
@@ -19,6 +16,7 @@
     <file path="/routes.rb" changelist="0236333f-44d4-45f8-a2cf-7b31c2c5c63a" time="1386387748955" ignored="false" />
     <file path="/index.html.erb" changelist="0236333f-44d4-45f8-a2cf-7b31c2c5c63a" time="1386395599376" ignored="false" />
     <file path="/style.css" changelist="0236333f-44d4-45f8-a2cf-7b31c2c5c63a" time="1386389886653" ignored="false" />
+    <file path="/*.regexp" changelist="0236333f-44d4-45f8-a2cf-7b31c2c5c63a" time="1386398299584" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,10 +57,11 @@
       <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/contents/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="50" selection-start="931" selection-end="931" vertical-scroll-proportion="0.47469458">
+            <state line="25" column="45" selection-start="1131" selection-end="1131" vertical-scroll-proportion="0.6980803">
               <folding>
                 <element signature="n#style#0;n#section#0;n#article#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#section#0;n#article#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#0;n#section#0;n#article#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#p#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
@@ -88,7 +87,7 @@
       <file leaf-file-name="demo.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/demo.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="17" selection-start="790" selection-end="790" vertical-scroll-proportion="-6.6153846">
+            <state line="58" column="48" selection-start="1044" selection-end="1044" vertical-scroll-proportion="-14.0">
               <folding />
             </state>
           </provider>
@@ -367,6 +366,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/assets/images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/assets" />
       <recent name="$PROJECT_DIR$/app/assets/images" />
     </key>
   </component>
@@ -789,11 +792,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/demo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="17" selection-start="790" selection-end="790" vertical-scroll-proportion="-6.6153846">
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/app/assets/images/title_back.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/style.css">
@@ -803,17 +804,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/images/title_back.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/demo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="48" selection-start="1044" selection-end="1044" vertical-scroll-proportion="-14.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/contents/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="50" selection-start="931" selection-end="931" vertical-scroll-proportion="0.47469458">
+        <state line="25" column="45" selection-start="1131" selection-end="1131" vertical-scroll-proportion="0.6980803">
           <folding>
             <element signature="n#style#0;n#section#0;n#article#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#section#0;n#article#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#section#0;n#article#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#p#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
