@@ -1,0 +1,55 @@
+/*!
+ * Bespoke.js Demo Themes
+ *
+ * These styles are hard-coded to be pre-processor agnostic.
+ * In reality, you should probably use -prefix-free or LESS / SCSS / Stylus.
+ *
+ * This is only scratching the surfact of what can be done.
+ * Be creative and make something that surprises people! ;)
+ *
+ */
+
+/* Cube Theme */
+
+
+/* Concave Theme */
+.concave {
+    background: rgba(235, 156, 184, 0.3);
+}
+.concave section,
+.concave .arrow:hover {
+    background: rgb(235, 156, 184);
+}
+.concave a {
+    color: rgb(235, 156, 184);
+}
+.concave section.bespoke-before {
+    -webkit-transform: translateX(-800px) rotateY(90deg) translateX(-800px);
+    -moz-transform: translateX(-800px) rotateY(90deg) translateX(-800px);
+    -ms-transform: translateX(-800px) rotateY(90deg) translateX(-800px);
+    -o-transform: translateX(-800px) rotateY(90deg) translateX(-800px);
+    transform: translateX(-800px) rotateY(90deg) translateX(-800px);
+}
+.concave section.bespoke-before-1 {
+    -webkit-transform: translateX(-310px) rotateY(58deg) translateX(-240px);
+    -moz-transform: translateX(-310px) rotateY(58deg) translateX(-240px);
+    -ms-transform: translateX(-310px) rotateY(58deg) translateX(-240px);
+    -o-transform: translateX(-310px) rotateY(58deg) translateX(-240px);
+    transform: translateX(-310px) rotateY(58deg) translateX(-240px);
+    opacity: 0.4
+}
+.concave section.bespoke-after {
+    -webkit-transform: translateX(800px) rotateY(-90deg) translateX(800px);
+    -moz-transform: translateX(800px) rotateY(-90deg) translateX(800px);
+    -ms-transform: translateX(800px) rotateY(-90deg) translateX(800px);
+    -o-transform: translateX(800px) rotateY(-90deg) translateX(800px);
+    transform: translateX(800px) rotateY(-90deg) translateX(800px);
+}
+.concave section.bespoke-after-1 {
+    -webkit-transform: translateX(310px) rotateY(-58deg) translateX(240px);
+    -moz-transform: translateX(310px) rotateY(-58deg) translateX(240px);
+    -ms-transform: translateX(310px) rotateY(-58deg) translateX(240px);
+    -o-transform: translateX(310px) rotateY(-58deg) translateX(240px);
+    transform: translateX(310px) rotateY(-58deg) translateX(240px);
+    opacity: 0.4
+}

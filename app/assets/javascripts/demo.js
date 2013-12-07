@@ -15,19 +15,19 @@
 
 	function initThemeSwitching() {
 		themes = [
-			'coverflow',
-			'classic',
-			'cube',
-			'carousel',
+			'concave',
+			'concave',
+			'concave',
+			'concave',
 			'concave'
 		];
-		
+
 		selectedThemeIndex = 0;
 
 		initInstructions();
 		initKeys();
 		initSlideGestures();
-		initThemeGestures();
+//		initThemeGestures();
 		initButtons();
 
 		selectTheme(0);
