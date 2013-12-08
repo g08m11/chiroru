@@ -15,10 +15,7 @@
 
 	function initThemeSwitching() {
 		themes = [
-			'coverflow',
-			'classic',
-			'cube',
-			'carousel'
+			'classic'
 		];
 		
 		selectedThemeIndex = 0;
@@ -34,7 +31,7 @@
 
 	function initInstructions() {
 		if (isTouch()) {
-			document.getElementById('input-method').innerHTML = 'Swipe up and down';
+			document.getElementById('input-method').innerHTML = 'Chiroru News';
 		}
 
 		instructionsTimeout = setTimeout(showInstructions, 5000);

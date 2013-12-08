@@ -2,14 +2,14 @@
 <html>
 <head>
   <meta name="viewport" content="width=device-width" />
-  <title>Bespoke.js</title>
+  <title>Chiroru News</title>
   <%= stylesheet_link_tag "style.css", "demo.css",:debug => true %>
   <link href="http://fonts.googleapis.com/css?family=Raleway+Dots" rel="stylesheet" type="text/css">
 </head>
 <body class="classic">
 <div id="main">
   <header>
-    <p class="hidden"><span id="input-method">Press up and down keys</span> to view example themes.</p>
+    <p class="hidden"><span id="input-method">Chiroru News</span> </p>
   </header>
 
   <article>
@@ -17,8 +17,8 @@
       <section style="text-align:center;padding-top: 15px;" >
         <%# image_tag 'line.png', :style => "position: absolute;top:-20px;right:-30px;width:110px;" %>
         <%# image_tag 'twitter.png', :style => "position: absolute;top:-20px;left:-30px;width:110px;" %>
-        <a href="http://line.naver.jp/R/msg/text/?LINE%E3%81%A7%E9%80%81%E3%82%8B%0D%0Ahttp%3A%2F%2Fline.naver.jp%2F">><img src="/assets/line.png" alt="Chiroru Newsからのおすすめ記事" style="position: absolute; top:-20px;right:-30px;width:110px;"/></a>
-        <a href="http://twitter.com/share?url=<%= obj.url %>&text='Chiroru Newsからのおすすめ記事'"target="_blank"><img src="/assets/twitter.png" alt="ツイートに失敗しました" style="position: absolute; top:-20px;left:-30px;width:110px;"/ ></a>
+        <a href="http://line.naver.jp/R/msg/text/?Chiroru Newsからのおすすめ記事 <%= obj.url %>"target="_blank"><img src="/assets/line.png" alt="Chiroru Newsからのおすすめ記事" style="position: absolute; top:-40px;right:-28px;width:110px;"/></a>
+        <a href="http://twitter.com/share?url=<%= obj.url %>&text=♡Chiroru Newsからのおすすめ記事♡"target="_blank"><img src="/assets/twitter.png" alt="ツイートに失敗しました" style="position: absolute; top:-40px;left:-28px;width:110px;"/></a>
         <div style="position: absolute;bottom:15px;height:80px;left:81px;padding:10px;width:350px;height:100px;background:url(/assets/title_back.png); color: #ffffff" >
           <p style="font-size:30px;line-height:100px;">test</p>
         </div>
@@ -29,18 +29,6 @@
 </div>
 
 
-<footer>
-  <div class="credits">
-  </div>
-
-  <div class="themes">
-    <p>
-      <strong>Example Theme<span class="colon">:</span></strong> <span id="theme"></span>
-    </p>
-    <div id="up-arrow" class="up arrow">^</div>
-    <div id="down-arrow" class="down arrow">^</div>
-  </div>
-</footer>
 <%= javascript_include_tag "bespoke" %>
 <%= javascript_include_tag "demo"%>
 </body>

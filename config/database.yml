@@ -21,10 +21,10 @@ development:
   pool: 5
   username: postgres
   #個人PCなら
-  #password: asdf
+  password: asdf
   #別PCなら
 
-  password: tryfeel
+  #password: tryfeel
   #ソケットは/tmpにあるやつをリンク付けたため不要
   #socket: /tmp/.s.PGSQL.5432
 
