@@ -44,7 +44,7 @@ class Tasks::InsertContentsTask
         p thumb.xpath('@href').text
         content.image_url =  thumb.xpath('img').attribute('src').value
         content.url = 'http://mery.jp' + thumb.xpath('@href').to_s
-        content.genre = 1
+       # content.genre = 1
         content.save
 
       end
@@ -86,7 +86,7 @@ class Tasks::InsertContentsTask
         p thumb.xpath('@href').text
         content.image_url =  thumb.xpath('img').attribute('src').value
         content.url = thumb.xpath('@href').to_s
-        content.genre = 2
+        #content.genre = 2
         content.save
 
       end
@@ -112,8 +112,19 @@ class Tasks::InsertContentsTask
     #url = 'http://nanapi.jp/search/q:%E6%99%82%E7%9F%AD/rank:1/theme_id:613'
     #url = 'http://webservice.recruit.co.jp/beauty/salon/v1?order=3&name=%E3%82%B5%E3%83%AD%E3%83%B3&key=d80cc5011c92e61d'
 
-    h = Hash.from_xml(open('http://webservice.recruit.co.jp/beauty/salon/v1?order=3&name=%E3%82%B5%E3%83%AD%E3%83%B3&key=d80cc5011c92e61d').read)
-    pp h['results']['salon'].first['id']
+    #h = Hash.from_xml(open('http://webservice.recruit.co.jp/beauty/salon/v1?order=3&address=%E6%B8%8B%E8%B0%B7&key=d80cc5011c92e61d').read)
+    h = Hash.from_xml(open('http://webservice.recruit.co.jp/relax/salon/v1?response_reserve=1&order=3&address=%E6%B8%8B%E8%B0%B7&key=d80cc5011c92e61d').read)
+
+    h['results']['salon'].each do |t|
+      pp t['urls']['pc']
+      pp t['mood'][0]['photo']
+      content= Content.new
+      content.image_url =  t['mood'][0]['photo']
+      content.url = t['urls']['pc']
+      #content.genre = 2
+      content.save
+
+    end
 
   end
 end
