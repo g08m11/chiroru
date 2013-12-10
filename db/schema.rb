@@ -17,9 +17,9 @@ ActiveRecord::Schema.define(version: 20131130043025) do
   enable_extension "plpgsql"
 
   create_table "contents", force: true do |t|
-    t.string   "image_url"
     t.string   "url"
-    t.text     "title"
+    t.integer  "genre"
+    t.text     "image_url"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

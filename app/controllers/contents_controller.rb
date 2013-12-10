@@ -5,7 +5,7 @@ class ContentsController < ApplicationController
   # GET /contents.json
   def index
     @contents = Content.all
-    @contents = @contents.sample(10)
+    @contents = @contents.sample(20)
   end
 
   # GET /contents/1

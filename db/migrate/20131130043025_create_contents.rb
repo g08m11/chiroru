@@ -4,7 +4,7 @@ class CreateContents < ActiveRecord::Migration
       t.string :url
       t.integer :genre
       t.text :image_url
-      t.text :title
+      #t.text :title
 
       t.timestamps
     end

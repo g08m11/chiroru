@@ -17,7 +17,7 @@
 development:
   adapter: postgresql
   encoding: UTF-8
-  database: mydb
+  database: chiroru
   pool: 5
   username: postgres
   #個人PCなら
