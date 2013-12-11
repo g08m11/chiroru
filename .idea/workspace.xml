@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0236333f-44d4-45f8-a2cf-7b31c2c5c63a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.yml" afterPath="$PROJECT_DIR$/config/database.yml" />
-    </list>
+    <list default="true" id="0236333f-44d4-45f8-a2cf-7b31c2c5c63a" name="Default" comment="" />
     <ignored path="chiroru.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="0236333f-44d4-45f8-a2cf-7b31c2c5c63a" time="1386604607136" ignored="false" />
