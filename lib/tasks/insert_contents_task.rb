@@ -17,9 +17,7 @@ class Tasks::InsertContentsTask
     #TODO:主要サイトの洗い出しとそれに合わせての検索結果をどうするかを決める。
     #TODO:テーブルにどこまでデータを保持するかを検討する必要がある。。
 
-    urls = ['http://design.style4.info/?s=%E3%82%AB%E3%83%AF%E3%82%A4%E3%82%A4&submit=Search',
-            'http://design.style4.info/?s=%E7%B5%B6%E6%99%AF&submit=Search',
-            'http://mery.jp/search?q=%E3%82%B3%E3%82%B9%E3%83%A1',
+    urls = ['http://mery.jp/search?q=%E3%82%B3%E3%82%B9%E3%83%A1',
             'http://mery.jp/search?page=2&q=%E3%82%B3%E3%82%B9%E3%83%A1',
             'http://mery.jp/hairstyle','http://mery.jp/love','http://mery.jp/gourmet']
     urls.each do |url|
