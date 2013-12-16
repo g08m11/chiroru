@@ -64,11 +64,11 @@ test:
 
 
 production:
-adapter: postgresql
-encoding: unicode
-pool: 5
-database: ddlo9grrlhav2k
-username: ypuiggjyvuqsfg
-password: jvwOJaRIMO8hWoXZa46x4e0KE0
-host: ec2-54-225-101-60.compute-1.amazonaws.com
-port: 5432
+  adapter: postgresql
+  encoding: UTF-8
+  database: chiroru
+  pool: 5
+  username: postgres
+  #個人PCなら
+  password: asdf
+  #別PCなら
