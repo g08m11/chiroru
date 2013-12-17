@@ -5,6 +5,7 @@ require "nokogiri"
 require 'nkf'
 require 'pp'
 
+# -*- encoding: utf-8 -*-
 
 
 #検索結果ではURL単一しか取れないから
