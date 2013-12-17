@@ -96,7 +96,7 @@ class Tasks::InsertContentsTask
     #TODO:テーブルにどこまでデータを保持するかを検討する必要がある。。
     #TODO:ある程度のサイトは一つのモジュールで対応可能なためパラメータや条件で取得を変えるようにしたい。
 
-    apis = ['http://webservice.recruit.co.jp/beauty/salon/v1?response_reserve=1&count=25&order=3&address=%E6%B8%8B%E8%B0%B7&key=d80cc5011c92e61d',
+    apis = ['http://webservice.recruit.co.jp/beauty/salon/v1?response_reserve=1&count=50&order=3&address=%E6%96%B0%E5%AE%BF&key=d80cc5011c92e61d',
             'http://webservice.recruit.co.jp/relax/salon/v1?response_reserve=1&count=25&order=3&address=%E6%B8%8B%E8%B0%B7&key=d80cc5011c92e61d']
     apis.each do |url|
       h = Hash.from_xml(open(url).read)
