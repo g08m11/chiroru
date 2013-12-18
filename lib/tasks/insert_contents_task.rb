@@ -81,7 +81,7 @@ class Tasks::InsertContentsTask
           p thumb.xpath('img').attribute('src').value
           p thumb.xpath('@href').text
           content.image_url =  thumb.xpath('img').attribute('src').value
-          content.url = thumb.xpath('@href').to_s
+          content.url = 'http://www.buyma.com' + thumb.xpath('@href').to_s
           content.genre = 5
           content.save
 

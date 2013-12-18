@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0236333f-44d4-45f8-a2cf-7b31c2c5c63a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/content.rb" afterPath="$PROJECT_DIR$/app/models/content.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/tasks/insert_contents_task.rb" afterPath="$PROJECT_DIR$/lib/tasks/insert_contents_task.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/contents/test.html" afterPath="$PROJECT_DIR$/app/views/contents/test.html" />
     </list>
     <ignored path="chiroru.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,10 +39,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="insert_contents_task.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="insert_contents_task.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/tasks/insert_contents_task.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="77" column="8" selection-start="2308" selection-end="2308" vertical-scroll-proportion="0.0">
+            <state line="83" column="49" selection-start="2637" selection-end="2637" vertical-scroll-proportion="0.7894737">
               <folding />
             </state>
           </provider>
@@ -100,10 +98,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="content.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="content.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/content.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="17" selection-start="128" selection-end="141" vertical-scroll-proportion="0.12077295">
+            <state line="5" column="17" selection-start="128" selection-end="141" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -141,8 +139,8 @@
         <option value="$PROJECT_DIR$/config/deploy.rb" />
         <option value="$PROJECT_DIR$/app/controllers/contents_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/contents/test.html" />
-        <option value="$PROJECT_DIR$/lib/tasks/insert_contents_task.rb" />
         <option value="$PROJECT_DIR$/app/models/content.rb" />
+        <option value="$PROJECT_DIR$/lib/tasks/insert_contents_task.rb" />
       </list>
     </option>
   </component>
@@ -816,13 +814,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/tasks/insert_contents_task.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="8" selection-start="2308" selection-end="2308" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/contents/test.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3995" column="0" selection-start="188915" selection-end="188915" vertical-scroll-proportion="-2458.75">
@@ -855,7 +846,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/content.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="17" selection-start="128" selection-end="141" vertical-scroll-proportion="0.12077295">
+        <state line="5" column="17" selection-start="128" selection-end="141" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/tasks/insert_contents_task.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="83" column="49" selection-start="2637" selection-end="2637" vertical-scroll-proportion="0.7894737">
           <folding />
         </state>
       </provider>
