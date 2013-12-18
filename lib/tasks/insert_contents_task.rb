@@ -66,11 +66,9 @@ class Tasks::InsertContentsTask
 
 
     urls = ['http://design.style4.info/page/2/?s=%E3%82%AB%E3%83%AF%E3%82%A4%E3%82%A4&submit=Search',
-            'http://design.style4.info/page/5/?s=%E3%82%AB%E3%83%AF%E3%82%A4%E3%82%A4&submit=Search',
             'http://design.style4.info/page/3/?s=%E3%82%AB%E3%83%AF%E3%82%A4%E3%82%A4&submit=Search',
             'http://design.style4.info/category/video/page/6/',
             'http://design.style4.info/category/video/page/2/',
-            'http://design.style4.info/page/5/?s=%E7%BE%8E%E3%81%97%E3%81%84&submit=Search',
             'http://design.style4.info/category/interior/page/3/']
     urls.each do |url|
       charset = nil
