@@ -78,10 +78,10 @@ class Tasks::InsertContentsTask
         thumbs = node.xpath('//div[@class="product_img"]/a')
         thumbs.each do |thumb|
           content= Content.new
-          p thumb.xpath('img').attribute('src').value
-          p thumb.xpath('@href').text
-          content.image_url =  thumb.xpath('img').attribute('src').value
-          content.url = 'http://www.buyma.com' + thumb.xpath('@href').to_s
+           thumb.xpath('img').attribute('src').value
+           thumb.xpath('@href').text
+          p content.image_url =  thumb.xpath('img').attribute('src').value
+          p content.url = 'http://www.buyma.com' + thumb.xpath('@href').to_s
           content.genre = 5
           content.save
 
