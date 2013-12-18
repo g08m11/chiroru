@@ -22,7 +22,12 @@ class Tasks::InsertContentsTask
             'http://mery.jp/search?page=2&q=%E3%82%B3%E3%82%B9%E3%83%A1',
             'http://mery.jp/hairstyle',
             'http://mery.jp/beauty',
-            'http://mery.jp/search?q=%E3%83%91%E3%83%B3%E3%82%B1%E3%83%BC%E3%82%AD']
+            'http://mery.jp/search?q=%E3%83%91%E3%83%B3%E3%82%B1%E3%83%BC%E3%82%AD',
+            'http://mery.jp/search?q=%E3%82%AF%E3%83%AA%E3%82%B9%E3%83%9E%E3%82%B9',
+            'http://mery.jp/search?q=%E3%83%86%E3%82%A3%E3%83%95%E3%82%A1%E3%83%8B%E3%83%BC',
+            'http://mery.jp/search?q=%E7%BE%8E%E5%AE%B9',
+            'http://mery.jp/search?q=%E3%83%A1%E3%82%A4%E3%82%AF'
+    ]
     urls.each do |url|
 
       charset = nil
