@@ -59,6 +59,39 @@ class Tasks::InsertContentsTask
 
   end
 
+  def self.execute_buyma
+    #TODO:主要サイトの洗い出しとそれに合わせての検索結果をどうするかを決める。
+    #TODO:テーブルにどこまでデータを保持するかを検討する必要がある。。
+
+    urls = ['http://www.buyma.com/r/_MIUMIU-%E3%83%9F%E3%83%A5%E3%82%A6%E3%83%9F%E3%83%A5%E3%82%A6/?tag_ids=502']
+    urls.each do |url|
+
+      charset = nil
+      html = open(url) do |f|
+        charset = f.charset
+        f.read
+      end
+      doc = Nokogiri::HTML.parse(html, nil, charset)
+       doc.title
+      doc.xpath('//div[@id="content"]').each do |node|
+
+        thumbs = node.xpath('//div[@class="product_img"]/a')
+        thumbs.each do |thumb|
+          content= Content.new
+          p thumb.xpath('img').attribute('src').value
+          p thumb.xpath('@href').text
+          content.image_url =  thumb.xpath('img').attribute('src').value
+          content.url = thumb.xpath('@href').to_s
+          content.genre = 5
+          content.save
+
+        end
+
+      end
+    end
+  end
+
+
   def self.execute_style4
     #TODO:主要サイトの洗い出しとそれに合わせての検索結果をどうするかを決める。
     #TODO:テーブルにどこまでデータを保持するかを検討する必要がある。。
@@ -125,5 +158,4 @@ class Tasks::InsertContentsTask
 
   end
 end
-
 
