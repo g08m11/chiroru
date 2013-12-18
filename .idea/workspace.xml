@@ -42,7 +42,7 @@
       <file leaf-file-name="insert_contents_task.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/tasks/insert_contents_task.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="116" column="26" selection-start="3683" selection-end="3683" vertical-scroll-proportion="0.84615386">
+            <state line="104" column="87" selection-start="3260" selection-end="3260" vertical-scroll-proportion="2.6666667">
               <folding />
             </state>
           </provider>
@@ -790,7 +790,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/tasks/insert_contents_task.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="116" column="26" selection-start="3683" selection-end="3683" vertical-scroll-proportion="0.84615386">
+        <state line="104" column="87" selection-start="3260" selection-end="3260" vertical-scroll-proportion="2.6666667">
           <folding />
         </state>
       </provider>
