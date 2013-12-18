@@ -20,7 +20,9 @@ class Tasks::InsertContentsTask
 
     urls = ['http://mery.jp/search?q=%E3%82%B3%E3%82%B9%E3%83%A1',
             'http://mery.jp/search?page=2&q=%E3%82%B3%E3%82%B9%E3%83%A1',
-            'http://mery.jp/hairstyle','http://mery.jp/love','http://mery.jp/gourmet']
+            'http://mery.jp/hairstyle',
+            'http://mery.jp/beauty',
+            'http://mery.jp/search?q=%E3%83%91%E3%83%B3%E3%82%B1%E3%83%BC%E3%82%AD']
     urls.each do |url|
 
       charset = nil
@@ -33,6 +35,8 @@ class Tasks::InsertContentsTask
       doc.xpath('//div[@class="article_list"]').each do |node|
         #image_url
         #thumbs
+        Content.destroy_all()
+
         thumbs = node.xpath('//div[@class="article_list_thumb"]/a')
         thumbs.each do |thumb|
           content= Content.new
@@ -56,8 +60,8 @@ class Tasks::InsertContentsTask
     #TODO:ある程度のサイトは一つのモジュールで対応可能なためパラメータや条件で取得を変えるようにしたい。
 
 
-    urls = ['http://design.style4.info/page/7/?s=%E3%82%AB%E3%83%AF%E3%82%A4%E3%82%A4&submit=Search',
-            'http://design.style4.info/page/6/?s=%E3%82%AB%E3%83%AF%E3%82%A4%E3%82%A4&submit=Search',
+    urls = ['http://design.style4.info/page/2/?s=%E3%82%AB%E3%83%AF%E3%82%A4%E3%82%A4&submit=Search',
+            'http://design.style4.info/page/5/?s=%E3%82%AB%E3%83%AF%E3%82%A4%E3%82%A4&submit=Search',
             'http://design.style4.info/?s=%E3%82%AB%E3%83%AF%E3%82%A4%E3%82%A4&submit=Search',
             'http://design.style4.info/?s=%E7%BE%8E%E3%81%97%E3%81%84&submit=Search',
             'http://design.style4.info/page/3/?s=%E7%BE%8E%E3%81%97%E3%81%84&submit=Search']
@@ -96,8 +100,9 @@ class Tasks::InsertContentsTask
     #TODO:テーブルにどこまでデータを保持するかを検討する必要がある。。
     #TODO:ある程度のサイトは一つのモジュールで対応可能なためパラメータや条件で取得を変えるようにしたい。
 
-    apis = ['http://webservice.recruit.co.jp/beauty/salon/v1?response_reserve=1&count=50&order=3&address=%E6%96%B0%E5%AE%BF&key=d80cc5011c92e61d',
-            'http://webservice.recruit.co.jp/relax/salon/v1?response_reserve=1&count=25&order=3&address=%E6%B8%8B%E8%B0%B7&key=d80cc5011c92e61d']
+    apis = ['http://webservice.recruit.co.jp/relax/salon/v1?response_reserve=1&count=50&order=3&address=%E9%8A%80%E5%BA%A7&key=d80cc5011c92e61d',
+            'http://webservice.recruit.co.jp/relax/salon/v1?response_reserve=1&count=50&order=3&address=%E6%B8%8B%E8%B0%B7&key=d80cc5011c92e61d'
+    ]
     apis.each do |url|
       h = Hash.from_xml(open(url).read)
 
