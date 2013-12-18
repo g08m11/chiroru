@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0236333f-44d4-45f8-a2cf-7b31c2c5c63a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/tasks/insert_contents_task.rb" afterPath="$PROJECT_DIR$/lib/tasks/insert_contents_task.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/production.rb" afterPath="$PROJECT_DIR$/config/environments/production.rb" />
     </list>
     <ignored path="chiroru.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -16,7 +16,7 @@
     <file path="/*.regexp" changelist="0236333f-44d4-45f8-a2cf-7b31c2c5c63a" time="1386398299584" ignored="false" />
     <file path="/contents_controller.rb" changelist="0236333f-44d4-45f8-a2cf-7b31c2c5c63a" time="1386518162861" ignored="false" />
     <file path="/20131130043025_create_contents.rb" changelist="0236333f-44d4-45f8-a2cf-7b31c2c5c63a" time="1386516369059" ignored="false" />
-    <file path="/production.rb" changelist="0236333f-44d4-45f8-a2cf-7b31c2c5c63a" time="1387200074457" ignored="false" />
+    <file path="/production.rb" changelist="0236333f-44d4-45f8-a2cf-7b31c2c5c63a" time="1387384286938" ignored="false" />
     <file path="/schedule.rb" changelist="0236333f-44d4-45f8-a2cf-7b31c2c5c63a" time="1386692735990" ignored="false" />
     <file path="/content.rb" changelist="0236333f-44d4-45f8-a2cf-7b31c2c5c63a" time="1387382549385" ignored="false" />
     <file path="$PROJECT_DIR$/db/schema.rb" changelist="0236333f-44d4-45f8-a2cf-7b31c2c5c63a" time="1387201692279" ignored="false" />
@@ -39,10 +39,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="insert_contents_task.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="insert_contents_task.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/tasks/insert_contents_task.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="12" selection-start="2525" selection-end="2525" vertical-scroll-proportion="0.6034188">
+            <state line="82" column="12" selection-start="2525" selection-end="2525" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -107,10 +107,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="production.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="production.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="2" selection-start="2683" selection-end="2683" vertical-scroll-proportion="-9.384615">
+            <state line="65" column="52" selection-start="2733" selection-end="2733" vertical-scroll-proportion="0.43649372">
               <folding />
             </state>
           </provider>
@@ -148,8 +148,8 @@
         <option value="$PROJECT_DIR$/app/controllers/contents_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/contents/test.html" />
         <option value="$PROJECT_DIR$/app/models/content.rb" />
-        <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/lib/tasks/insert_contents_task.rb" />
+        <option value="$PROJECT_DIR$/config/environments/production.rb" />
       </list>
     </option>
   </component>
@@ -871,16 +871,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+    <entry file="file://$PROJECT_DIR$/app/models/content.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="2" selection-start="2683" selection-end="2683" vertical-scroll-proportion="-9.384615">
+        <state line="5" column="17" selection-start="128" selection-end="141" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/content.rb">
+    <entry file="file://$PROJECT_DIR$/lib/tasks/insert_contents_task.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="17" selection-start="128" selection-end="141" vertical-scroll-proportion="0.0">
+        <state line="82" column="12" selection-start="2525" selection-end="2525" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -892,9 +892,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/tasks/insert_contents_task.rb">
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="12" selection-start="2525" selection-end="2525" vertical-scroll-proportion="0.6034188">
+        <state line="65" column="52" selection-start="2733" selection-end="2733" vertical-scroll-proportion="0.43649372">
           <folding />
         </state>
       </provider>
