@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0236333f-44d4-45f8-a2cf-7b31c2c5c63a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/contents_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/contents_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/contents/index.html.erb" afterPath="$PROJECT_DIR$/app/views/contents/index.html.erb" />
     </list>
     <ignored path="chiroru.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -11,7 +11,7 @@
     <file path="/insert_contents_task.rb" changelist="0236333f-44d4-45f8-a2cf-7b31c2c5c63a" time="1387384183432" ignored="false" />
     <file path="/database.yml" changelist="0236333f-44d4-45f8-a2cf-7b31c2c5c63a" time="1386517024375" ignored="false" />
     <file path="/routes.rb" changelist="0236333f-44d4-45f8-a2cf-7b31c2c5c63a" time="1386387748955" ignored="false" />
-    <file path="/index.html.erb" changelist="0236333f-44d4-45f8-a2cf-7b31c2c5c63a" time="1387121138348" ignored="false" />
+    <file path="/index.html.erb" changelist="0236333f-44d4-45f8-a2cf-7b31c2c5c63a" time="1387460350686" ignored="false" />
     <file path="/style.css" changelist="0236333f-44d4-45f8-a2cf-7b31c2c5c63a" time="1386389886653" ignored="false" />
     <file path="/*.regexp" changelist="0236333f-44d4-45f8-a2cf-7b31c2c5c63a" time="1386398299584" ignored="false" />
     <file path="/contents_controller.rb" changelist="0236333f-44d4-45f8-a2cf-7b31c2c5c63a" time="1386518162861" ignored="false" />
@@ -51,7 +51,7 @@
       <file leaf-file-name="test.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/contents/test.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="29" selection-start="5693" selection-end="5693" vertical-scroll-proportion="-4.375">
+            <state line="68" column="29" selection-start="5693" selection-end="5693" vertical-scroll-proportion="976.875">
               <folding>
                 <element signature="n#style#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#4;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -80,20 +80,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contents_controller.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="contents_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/contents_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="35" selection-start="262" selection-end="262" vertical-scroll-proportion="0.2006689">
+            <state line="8" column="35" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/contents/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
+            <state line="21" column="151" selection-start="988" selection-end="988" vertical-scroll-proportion="0.56149733">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#section#0;n#article#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#0;n#section#0;n#article#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -142,7 +145,6 @@
         <option value="$PROJECT_DIR$/config/schedule.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/database.yml" />
-        <option value="$PROJECT_DIR$/app/views/contents/index.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/config/deploy.rb" />
         <option value="$PROJECT_DIR$/app/views/contents/test.html" />
@@ -150,6 +152,7 @@
         <option value="$PROJECT_DIR$/lib/tasks/insert_contents_task.rb" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/app/controllers/contents_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/contents/index.html.erb" />
       </list>
     </option>
   </component>
@@ -841,13 +844,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/contents/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="65" column="52" selection-start="2733" selection-end="2733" vertical-scroll-proportion="-9.384615">
@@ -855,9 +851,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/content.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="17" selection-start="128" selection-end="141" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/contents_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="35" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/contents/test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="29" selection-start="5693" selection-end="5693" vertical-scroll-proportion="-4.375">
+        <state line="68" column="29" selection-start="5693" selection-end="5693" vertical-scroll-proportion="976.875">
           <folding>
             <element signature="n#style#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#4;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -885,17 +895,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/content.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/contents/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="17" selection-start="128" selection-end="141" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/contents_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="35" selection-start="262" selection-end="262" vertical-scroll-proportion="0.2006689">
-          <folding />
+        <state line="21" column="151" selection-start="988" selection-end="988" vertical-scroll-proportion="0.56149733">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#section#0;n#article#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#section#0;n#article#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

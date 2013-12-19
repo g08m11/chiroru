@@ -4,7 +4,8 @@
   <meta name="viewport" content="width=device-width" />
   <title>Chiroru News</title>
   <%= stylesheet_link_tag "style.css", "demo.css",:debug => true %>
-  <link rel="apple-touch-icon-precomposed" href="assets/apple-touch-icon-precomposed.png" />  <link href="http://fonts.googleapis.com/css?family=Raleway+Dots" rel="stylesheet" type="text/css">
+  <link rel="apple-touch-icon-precomposed" href="assets/apple-touch-icon-precomposed.png" />
+  <link href="http://fonts.googleapis.com/css?family=Raleway+Dots" rel="stylesheet" type="text/css">
 
 </head>
 <body class="classic">
@@ -18,8 +19,8 @@
       <section style="text-align:center;padding-top: 15px;" >
         <%# image_tag 'line.png', :style => "position: absolute;top:-20px;right:-30px;width:110px;" %>
         <%# image_tag 'twitter.png', :style => "position: absolute;top:-20px;left:-30px;width:110px;" %>
-        <a href="http://line.naver.jp/R/msg/text/?Chiroru Newsからのおすすめ記事 <%= obj.url %>"target="_blank"><img src="/assets/line.png" alt="Chiroru Newsからのおすすめ記事" style="position: absolute; top:-40px;right:-28px;width:110px;"/></a>
-        <a href="http://twitter.com/share?url=<%= obj.url %>&text=♡Chiroru Newsからのおすすめ記事♡"target="_blank"><img src="/assets/twitter.png" alt="ツイートに失敗しました" style="position: absolute; top:-40px;left:-28px;width:110px;"/></a>
+        <a href="http://line.naver.jp/R/msg/text/?Chiroru Newsからあなたへ <%= obj.url %>"target="_blank"><img src="/assets/line.png" alt="Chiroru Newsからあなたへ" style="position: absolute; top:-40px;right:-28px;width:110px;"/></a>
+        <a href="http://twitter.com/share?url=<%= obj.url %>&text=♡Chiroru Newsからあなたへ♡"target="_blank"><img src="/assets/twitter.png" alt="ツイートに失敗しました" style="position: absolute; top:-40px;left:-28px;width:110px;"/></a>
         <div style="position: absolute;bottom:15px;height:80px;left:81px;padding:10px;width:350px;height:100px;background:url(/assets/title_back.png); color: #ffffff" >
           <p style="font-size:30px;line-height:100px;"><%= Content::StatusType::NAME[obj.genre] %></p>
         </div>
