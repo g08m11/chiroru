@@ -63,7 +63,9 @@ class Tasks::InsertContentsTask
     #TODO:主要サイトの洗い出しとそれに合わせての検索結果をどうするかを決める。
     #TODO:テーブルにどこまでデータを保持するかを検討する必要がある。。
 
-    urls = ['http://www.buyma.com/r/_MIUMIU-%E3%83%9F%E3%83%A5%E3%82%A6%E3%83%9F%E3%83%A5%E3%82%A6/?tag_ids=502']
+    urls = ['http://www.buyma.com/r/_MIUMIU-%E3%83%9F%E3%83%A5%E3%82%A6%E3%83%9F%E3%83%A5%E3%82%A6/?tag_ids=502',
+            'http://www.buyma.com/r/%E3%82%B7%E3%83%A3%E3%83%8D%E3%83%AB/?tag_ids=502',
+            'http://www.buyma.com/r/%E3%82%B0%E3%83%83%E3%83%81/?tag_ids=502']
     urls.each do |url|
 
       charset = nil
