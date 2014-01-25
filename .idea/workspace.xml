@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0236333f-44d4-45f8-a2cf-7b31c2c5c63a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/schedule.rb" afterPath="$PROJECT_DIR$/config/schedule.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/contents/index.html.erb" afterPath="$PROJECT_DIR$/app/views/contents/index.html.erb" />
     </list>
     <ignored path="chiroru.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -11,7 +11,7 @@
     <file path="/insert_contents_task.rb" changelist="0236333f-44d4-45f8-a2cf-7b31c2c5c63a" time="1387384183432" ignored="false" />
     <file path="/database.yml" changelist="0236333f-44d4-45f8-a2cf-7b31c2c5c63a" time="1386517024375" ignored="false" />
     <file path="/routes.rb" changelist="0236333f-44d4-45f8-a2cf-7b31c2c5c63a" time="1386387748955" ignored="false" />
-    <file path="/index.html.erb" changelist="0236333f-44d4-45f8-a2cf-7b31c2c5c63a" time="1387614727315" ignored="false" />
+    <file path="/index.html.erb" changelist="0236333f-44d4-45f8-a2cf-7b31c2c5c63a" time="1390669771532" ignored="false" />
     <file path="/style.css" changelist="0236333f-44d4-45f8-a2cf-7b31c2c5c63a" time="1386389886653" ignored="false" />
     <file path="/*.regexp" changelist="0236333f-44d4-45f8-a2cf-7b31c2c5c63a" time="1386398299584" ignored="false" />
     <file path="/contents_controller.rb" changelist="0236333f-44d4-45f8-a2cf-7b31c2c5c63a" time="1386518162861" ignored="false" />
@@ -48,10 +48,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="schedule.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="schedule.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/schedule.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="34" selection-start="180" selection-end="180" vertical-scroll-proportion="0.16556291">
+            <state line="5" column="34" selection-start="180" selection-end="180" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -66,6 +66,15 @@
                 <marker date="1387382056000" expanded="true" signature="8027:8110" placeholder="..." />
                 <marker date="1387382056000" expanded="true" signature="8286:8324" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/contents/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="71" selection-start="1086" selection-end="1086" vertical-scroll-proportion="0.5048077">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -100,10 +109,10 @@
         <option value="$PROJECT_DIR$/app/models/content.rb" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/app/controllers/contents_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/contents/index.html.erb" />
         <option value="$PROJECT_DIR$/config/application.rb" />
         <option value="$PROJECT_DIR$/lib/tasks/insert_contents_task.rb" />
         <option value="$PROJECT_DIR$/config/schedule.rb" />
+        <option value="$PROJECT_DIR$/app/views/contents/index.html.erb" />
       </list>
     </option>
   </component>
@@ -787,13 +796,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/contents/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="59" selection-start="697" selection-end="697" vertical-scroll-proportion="-6.875">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/application.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="2" selection-start="1087" selection-end="1087" vertical-scroll-proportion="0.0">
@@ -849,7 +851,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/schedule.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="34" selection-start="180" selection-end="180" vertical-scroll-proportion="0.16556291">
+        <state line="5" column="34" selection-start="180" selection-end="180" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/contents/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="71" selection-start="1086" selection-end="1086" vertical-scroll-proportion="0.5048077">
           <folding />
         </state>
       </provider>
